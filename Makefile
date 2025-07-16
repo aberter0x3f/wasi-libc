@@ -388,10 +388,7 @@ MUSL_PRINTSCAN_SOURCES = \
     $(LIBC_TOP_HALF_MUSL_SRC_DIR)/stdio/vfscanf.c \
     $(LIBC_TOP_HALF_MUSL_SRC_DIR)/stdlib/strtod.c \
     $(LIBC_TOP_HALF_MUSL_SRC_DIR)/stdlib/wcstod.c
-BULK_MEMORY_SOURCES = \
-    $(LIBC_TOP_HALF_MUSL_SRC_DIR)/string/memcpy.c \
-    $(LIBC_TOP_HALF_MUSL_SRC_DIR)/string/memmove.c \
-    $(LIBC_TOP_HALF_MUSL_SRC_DIR)/string/memset.c
+BULK_MEMORY_SOURCES =
 LIBC_TOP_HALF_HEADERS_PRIVATE = $(LIBC_TOP_HALF_DIR)/headers/private
 LIBC_TOP_HALF_SOURCES = $(LIBC_TOP_HALF_DIR)/sources
 LIBC_TOP_HALF_ALL_SOURCES = \
